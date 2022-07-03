@@ -1,0 +1,22 @@
+* { /* Selector universal para decirle que todos los elementos de la página tengan margen de 0, relleno de 0 */
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+ body .div .span {
+    font-size: 18px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 1;
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    -ms-border-radius: 1;
+    -o-border-radius: 1;
+}
